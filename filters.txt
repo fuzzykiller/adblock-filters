@@ -1,0 +1,44 @@
+[Adblock Plus 2.0]
+! Title: fuzzykiller's uBlock filters
+! Description: Unbreak pages, unrestrict user actions and stuff
+! Expires: 4 days
+! Last modified: Sat, 28 May 2022 15:30:00 +0200
+! Homepage: https://github.com/fuzzykiller/adblock-filters
+! Licence: https://github.com/fuzzykiller/adblock-filters/blob/main/LICENSE
+!
+! GitHub issues: https://github.com/fuzzykiller/adblock-filters/issues
+! GitHub pull requests: https://github.com/fuzzykiller/adblock-filters/pulls
+
+! Dunno (old)
+||data.bitlearnreplace.info^
+||apester.com^
+
+! Whitelist
+@@||www.supermicro.com/sites/default/files/static/share/*$script,1p
+@@||www.supermicro.com/sites/default/files/static/share/*$stylesheet,1p
+
+! Annoying
+ls1.wettercomassets.com/img/cms/chameleon/mediapool/*
+wikipedia.org##DIV#centralNotice.cn-fundraising
+www.amazon.de###nav-link-prime
+
+! Inline ads
+www.heise.de##.apester-media
+www.heise.de##section[data-component=AdModule]
+www.heise.de##section[data-component=MarketingTeaserModule]
+www.heise.de##section[data-component=TeaserList] > div
+
+! Unwanted content
+www.heise.de##article[data-component=TeaserContainer]:has(span.theme-techstage)
+
+! Consent
+superuser.com##.js-consent-banner
+||cmp.heise.de^
+mydealz.de##body.overflow--hidden:style(overflow: unset !important)
+mydealz.de##main > .popover
+www.wetter.com###wcom-cmp
+www.wetter.com##.cmp-prevent-scroll:style(overflow-y: scroll !important)
+
+! Fix new KA-News page
+ka-news.de##.article-jsonld:style(user-select: unset !important)
+ka-news.de##+js(remove-attr, oncontextmenu)
