@@ -2,7 +2,7 @@
 ! Title: fuzzykiller's uBlock filters
 ! Description: Unbreak pages, unrestrict user actions and stuff
 ! Expires: 4 days
-! Last modified: Sat, 28 May 2022 15:30:00 +0200
+! Last modified: Sat, 28 May 2022 15:35:00 +0200
 ! Homepage: https://github.com/fuzzykiller/adblock-filters
 ! Licence: https://github.com/fuzzykiller/adblock-filters/blob/main/LICENSE
 !
@@ -21,6 +21,7 @@
 ls1.wettercomassets.com/img/cms/chameleon/mediapool/*
 wikipedia.org##DIV#centralNotice.cn-fundraising
 www.amazon.de###nav-link-prime
+www.heise.de###adb-note
 
 ! Inline ads
 www.heise.de##.apester-media
@@ -38,6 +39,7 @@ mydealz.de##body.overflow--hidden:style(overflow: unset !important)
 mydealz.de##main > .popover
 www.wetter.com###wcom-cmp
 www.wetter.com##.cmp-prevent-scroll:style(overflow-y: scroll !important)
+||consensu.org^
 
 ! Fix new KA-News page
 ka-news.de##.article-jsonld:style(user-select: unset !important)
