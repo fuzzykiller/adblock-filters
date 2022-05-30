@@ -33,6 +33,7 @@ www.heise.de##section[data-component=TeaserList] > div
 www.heise.de##article[data-component=TeaserContainer]:has(span.theme-techstage)
 smartlock.google.com
 www.ka-news.de###webpush-app
+www.ka-news.de###newcount-content
 
 ! Consent
 superuser.com##.js-consent-banner
