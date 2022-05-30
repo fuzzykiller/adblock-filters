@@ -2,7 +2,7 @@
 ! Title: fuzzykiller's uBlock filters
 ! Description: Unbreak pages, unrestrict user actions and stuff
 ! Expires: 4 days
-! Last modified: Mon, 30 May 2022 09:25:00 +0200
+! Last modified: Mon, 30 May 2022 09:35:00 +0200
 ! Homepage: https://github.com/fuzzykiller/adblock-filters
 ! Licence: https://github.com/fuzzykiller/adblock-filters/blob/main/LICENSE
 !
@@ -32,6 +32,7 @@ www.heise.de##section[data-component=TeaserList] > div
 ! Unwanted content
 www.heise.de##article[data-component=TeaserContainer]:has(span.theme-techstage)
 smartlock.google.com
+www.ka-news.de###webpush-app
 
 ! Consent
 superuser.com##.js-consent-banner
