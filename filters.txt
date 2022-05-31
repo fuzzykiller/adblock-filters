@@ -41,6 +41,7 @@ superuser.com##.js-consent-banner
 mydealz.de##body.overflow--hidden:style(overflow: unset !important)
 mydealz.de##main > .popover
 www.wetter.com###wcom-cmp
+www.wetter.com###cmp-wetter
 www.wetter.com##.cmp-prevent-scroll:style(overflow-y: scroll !important)
 ||consensu.org^
 
