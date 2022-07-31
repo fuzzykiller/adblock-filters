@@ -50,3 +50,7 @@ ka-news.de##.article-jsonld:style(user-select: auto !important)
 ka-news.de##+js(remove-attr, oncontextmenu)
 ka-news.de##.article-content > .article-text:style(flex: 0 0 100% !important; max-width: 70% !important)
 ka-news.de##.article-content > .article-side
+
+! Hide Youtube Shorts (Homepage, Navbar)
+youtube.com##.ytd-rich-section-renderer
+youtube.com##ytd-guide-entry-renderer:has(a[title=Shorts])
