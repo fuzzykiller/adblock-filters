@@ -31,6 +31,7 @@ www.heise.de##section[data-component=TeaserList] > div
 
 ! Unwanted content
 www.heise.de##article[data-component=TeaserContainer]:has(span.theme-techstage)
+www.heise.de##a-sticky-footer
 smartlock.google.com
 www.ka-news.de###webpush-app
 www.ka-news.de###newcount-content
