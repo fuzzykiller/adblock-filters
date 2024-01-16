@@ -2,7 +2,7 @@
 ! Title: fuzzykiller's uBlock filters
 ! Description: Unbreak pages, unrestrict user actions and stuff
 ! Expires: 4 days
-! Last modified: Sat, 21 Jan 2023 21:35:00 +0100
+! Last modified: Tue, 16 Jan 2024 19:03:00 +0100
 ! Homepage: https://github.com/fuzzykiller/adblock-filters
 ! Licence: https://github.com/fuzzykiller/adblock-filters/blob/main/LICENSE
 !
@@ -39,8 +39,6 @@ www.ka-news.de###newcount-content
 ! Consent
 superuser.com##.js-consent-banner
 ||cmp.heise.de^
-mydealz.de##body.overflow--hidden:style(overflow: unset !important)
-mydealz.de##main > .popover
 www.wetter.com###wcom-cmp
 www.wetter.com###cmp-wetter
 www.wetter.com##.cmp-prevent-scroll:style(overflow-y: scroll !important)
@@ -59,3 +57,6 @@ youtube.com##ytd-guide-entry-renderer:has(a[title=Shorts])
 ! Sign-in with Google popups
 ||accounts.google.com/gsi/client$script
 smartlock.google.com
+
+! Fix Bofrost jumping page on scroll
+bofrost.de##.menu-is-sticky .site:style(margin-top: 150px)
