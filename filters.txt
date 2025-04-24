@@ -2,7 +2,7 @@
 ! Title: fuzzykiller's uBlock filters
 ! Description: Unbreak pages, unrestrict user actions and stuff
 ! Expires: 4 days
-! Last modified: Tue, 26 Nov 2024 15:24:00 +0100
+! Last modified: Tue, 24 Apr 2025 19:26:00 +0200
 ! Homepage: https://github.com/fuzzykiller/adblock-filters
 ! Licence: https://github.com/fuzzykiller/adblock-filters/blob/main/LICENSE
 !
@@ -12,10 +12,6 @@
 ! Dunno (old)
 ||data.bitlearnreplace.info^
 ||apester.com^
-
-! Whitelist
-@@||www.supermicro.com/sites/default/files/static/share/*$script,1p
-@@||www.supermicro.com/sites/default/files/static/share/*$stylesheet,1p
 
 ! Annoying
 ls1.wettercomassets.com/img/cms/chameleon/mediapool/*
@@ -39,6 +35,7 @@ www.heise.de##div[data-module-name=GroupModule]:has-text(meistkommentiert)
 www.heise.de##div[data-module-name=NewsletterModule]
 www.heise.de##div[data-module-name=SocialMediaModule]
 www.heise.de##div[data-module-name=PreisvergleichModule]
+www.heise.de##a-include[src^="/api/meine-themen"]
 www.heise.de##a-sticky-footer
 www.ka-news.de###webpush-app
 www.ka-news.de###newcount-content
@@ -68,4 +65,4 @@ youtube.com##ytd-guide-entry-renderer:has(a[title=Shorts])
 smartlock.google.com
 
 ! Fix Bofrost jumping page on scroll
-bofrost.de##.menu-is-sticky .site:style(margin-top: 150px)
+bofrost.de##.menu-is-sticky .site:style(margin-top: 181.867px !important)
