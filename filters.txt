@@ -2,7 +2,7 @@
 ! Title: fuzzykiller's uBlock filters
 ! Description: Unbreak pages, unrestrict user actions and stuff
 ! Expires: 4 days
-! Last modified: Tue, 24 Apr 2025 19:26:00 +0200
+! Last modified: Thu, 24 Apr 2025 19:26:00 +0200
 ! Homepage: https://github.com/fuzzykiller/adblock-filters
 ! Licence: https://github.com/fuzzykiller/adblock-filters/blob/main/LICENSE
 !
