@@ -2,7 +2,7 @@
 ! Title: fuzzykiller's uBlock filters
 ! Description: Unbreak pages, unrestrict user actions and stuff
 ! Expires: 4 days
-! Last modified: Thu, 24 Apr 2025 19:26:00 +0200
+! Last modified: Fri, 23 May 2025 22:47:00 +0200
 ! Homepage: https://github.com/fuzzykiller/adblock-filters
 ! Licence: https://github.com/fuzzykiller/adblock-filters/blob/main/LICENSE
 !
@@ -56,9 +56,10 @@ ka-news.de##+js(remove-attr, oncontextmenu)
 ka-news.de##.article-content > .article-text:style(flex: 0 0 100% !important; max-width: 70% !important)
 ka-news.de##.article-content > .article-side
 
-! Hide Youtube Shorts (Homepage, Navbar)
+! Hide Youtube Shorts (Homepage, Navbar, Related)
 youtube.com##.ytd-rich-section-renderer
 youtube.com##ytd-guide-entry-renderer:has(a[title=Shorts])
+youtube.com##ytd-reel-shelf-renderer
 
 ! Sign-in with Google popups
 ||accounts.google.com/gsi/client$script
