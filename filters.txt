@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Title: fuzzykiller's uBlock filters
+! Title: Daniel's uBlock filters
 ! Description: Unbreak pages, unrestrict user actions and stuff
 ! Expires: 4 days
-! Last modified: Sun, 16 Nov 2025 20:17:00 +0100
-! Homepage: https://github.com/fuzzykiller/adblock-filters
-! Licence: https://github.com/fuzzykiller/adblock-filters/blob/main/LICENSE
+! Last modified: Sun, 21 Nov 2025 20:17:00 +0100
+! Homepage: https://github.com/btzdnl/adblock-filters
+! Licence: https://github.com/btzdnl/adblock-filters/blob/main/LICENSE
 !
-! GitHub issues: https://github.com/fuzzykiller/adblock-filters/issues
-! GitHub pull requests: https://github.com/fuzzykiller/adblock-filters/pulls
+! GitHub issues: https://github.com/btzdnl/adblock-filters/issues
+! GitHub pull requests: https://github.com/btzdnl/adblock-filters/pulls
 
 ! Dunno (old)
 ||data.bitlearnreplace.info^
